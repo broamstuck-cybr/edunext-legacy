@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 220" width="880" height="220" role="img" aria-label="edunext-legacy architectural banner">
+  <defs>
+    <linearGradient id="bgGradLegacy" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090d16"/>
+      <stop offset="60%" stop-color="#0d1320"/>
+      <stop offset="100%" stop-color="#111622"/>
+    </linearGradient>
+    <radialGradient id="glowGold" cx="70%" cy="50%" r="45%">
+      <stop offset="0%" stop-color="#e3b341" stop-opacity="0.14"/>
+      <stop offset="60%" stop-color="#1793d1" stop-opacity="0.06"/>
+      <stop offset="100%" stop-color="#090d16" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="gridLegacy" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M 24 0 L 0 0 0 24" fill="none" stroke="#1e293b" stroke-width="0.6" stroke-opacity="0.5"/>
+    </pattern>
+    <clipPath id="clipLegacy">
+      <rect width="880" height="220" rx="14"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#clipLegacy)">
+    <rect width="880" height="220" fill="url(#bgGradLegacy)"/>
+    <rect width="880" height="220" fill="url(#gridLegacy)"/>
+    <rect width="880" height="220" fill="url(#glowGold)"/>
+
+    <!-- Left archive badge icon -->
+    <g transform="translate(46, 48)">
+      <rect width="52" height="52" rx="10" fill="#111622" stroke="#1e293b" stroke-width="1.5"/>
+      <rect x="11" y="13" width="30" height="8" rx="2" fill="none" stroke="#e3b341" stroke-width="1.6"/>
+      <path d="M13 21 L13 38 L39 38 L39 21" fill="none" stroke="#1793d1" stroke-width="1.6" stroke-linejoin="round"/>
+      <line x1="21" y1="28" x2="31" y2="28" stroke="#39d353" stroke-width="2" stroke-linecap="round"/>
+    </g>
+
+    <!-- Title & Subtitle -->
+    <g transform="translate(114, 56)">
+      <text x="0" y="18" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="30" font-weight="700" letter-spacing="-0.6" fill="#f8fafc">edunext-legacy</text>
+      <text x="0" y="42" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13.5" fill="#94a3b8">Archived Bridge v3.9.0 &amp; Early Fork Builds</text>
+    </g>
+
+    <!-- Pills -->
+    <g transform="translate(46, 128)" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.5">
+      <rect x="0" y="0" width="118" height="24" rx="5" fill="#111622" stroke="#e3b341" stroke-opacity="0.65"/>
+      <circle cx="12" cy="12" r="3" fill="#e3b341"/>
+      <text x="22" y="15.5" fill="#fde68a">ARCHIVE BRANCH</text>
+
+      <rect x="128" y="0" width="128" height="24" rx="5" fill="#111622" stroke="#1e293b"/>
+      <circle cx="140" cy="12" r="3" fill="#1793d1"/>
+      <text x="150" y="15.5" fill="#cbd5e1">3-SOURCE WATCH</text>
+
+      <rect x="266" y="0" width="116" height="24" rx="5" fill="#111622" stroke="#1e293b"/>
+      <circle cx="278" cy="12" r="3" fill="#39d353"/>
+      <text x="288" y="15.5" fill="#cbd5e1">GEMINI BRIDGE</text>
+    </g>
+
+    <text x="46" y="190" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" fill="#64748b">SUCCESSOR: Edunext_fe  |  BUILDS: ULTRA v3.9, PRENIUM V1, LITE v1.0.7</text>
+
+    <!-- Right Artwork: Dual Browser Tab Bridge via GM Storage -->
+    <g transform="translate(476, 28)">
+      <!-- Tab 1: EduNext -->
+      <rect x="0" y="10" width="144" height="144" rx="8" fill="#111622" stroke="#1793d1" stroke-width="1.2"/>
+      <rect x="0" y="10" width="144" height="24" rx="8" fill="#0d1526"/>
+      <rect x="0" y="24" width="144" height="10" fill="#0d1526"/>
+      <line x1="0" y1="34" x2="144" y2="34" stroke="#1e293b"/>
+      <text x="12" y="26" font-family="ui-monospace, monospace" font-size="9.5" fill="#1793d1">edunext.fpt</text>
+
+      <!-- 3-Source stack inside Tab 1 -->
+      <rect x="12" y="46" width="120" height="22" rx="4" fill="#090d16" stroke="#1e293b"/>
+      <text x="20" y="60.5" font-family="ui-monospace, monospace" font-size="9.5" fill="#e2e8f0">1. React Fiber</text>
+      <rect x="12" y="74" width="120" height="22" rx="4" fill="#090d16" stroke="#1e293b"/>
+      <text x="20" y="88.5" font-family="ui-monospace, monospace" font-size="9.5" fill="#e2e8f0">2. DOM Block</text>
+      <rect x="12" y="102" width="120" height="22" rx="4" fill="#090d16" stroke="#1e293b"/>
+      <text x="20" y="116.5" font-family="ui-monospace, monospace" font-size="9.5" fill="#e2e8f0">3. Network Stream</text>
+      <text x="12" y="142" font-family="ui-monospace, monospace" font-size="8.5" fill="#64748b">+ Canvas Turn Sync</text>
+
+      <!-- Center Bridge Conduit -->
+      <path d="M 144 64 L 228 64" fill="none" stroke="#1793d1" stroke-width="1.5" stroke-dasharray="4 3"/>
+      <path d="M 228 104 L 144 104" fill="none" stroke="#39d353" stroke-width="1.5" stroke-dasharray="4 3"/>
+      <rect x="158" y="72" width="56" height="24" rx="5" fill="#090d16" stroke="#e3b341" stroke-width="1.1"/>
+      <text x="186" y="87" text-anchor="middle" font-family="ui-monospace, monospace" font-size="8.5" fill="#e3b341">GM_VAL</text>
+
+      <!-- Animated bidirectional packets -->
+      <circle cy="64" r="3.5" fill="#1793d1">
+        <animate attributeName="cx" values="146;226;146" dur="3.6s" repeatCount="indefinite"/>
+      </circle>
+      <circle cy="104" r="3.5" fill="#39d353">
+        <animate attributeName="cx" values="226;146;226" dur="3.6s" repeatCount="indefinite"/>
+      </circle>
+
+      <!-- Tab 2: Gemini -->
+      <rect x="228" y="10" width="140" height="144" rx="8" fill="#111622" stroke="#39d353" stroke-width="1.2"/>
+      <rect x="228" y="10" width="140" height="24" rx="8" fill="#0d1b18"/>
+      <rect x="228" y="24" width="140" height="10" fill="#0d1b18"/>
+      <line x1="228" y1="34" x2="368" y2="34" stroke="#1e293b"/>
+      <text x="240" y="26" font-family="ui-monospace, monospace" font-size="9.5" fill="#39d353">gemini.google</text>
+
+      <rect x="240" y="48" width="116" height="36" rx="4" fill="#090d16" stroke="#1e293b"/>
+      <text x="248" y="63" font-family="ui-monospace, monospace" font-size="9" fill="#94a3b8">Prompt Injector</text>
+      <text x="248" y="76" font-family="ui-monospace, monospace" font-size="9" fill="#e2e8f0">DOM Chat Input</text>
+
+      <rect x="240" y="92" width="116" height="46" rx="4" fill="#090d16" stroke="#39d353" stroke-opacity="0.5"/>
+      <text x="248" y="107" font-family="ui-monospace, monospace" font-size="9" fill="#94a3b8">Stream Settler</text>
+      <text x="248" y="121" font-family="ui-monospace, monospace" font-size="9" fill="#39d353">Read on idle</text>
+      <circle cx="342" cy="128" r="3" fill="#39d353">
+        <animate attributeName="opacity" values="0.2;1;0.2" dur="1.8s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+
+    <rect x="0.75" y="0.75" width="878.5" height="218.5" rx="14" fill="none" stroke="#1e293b" stroke-width="1.5"/>
+  </g>
+</svg>

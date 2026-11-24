@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 260" width="880" height="260" role="img" aria-label="edunext-legacy bridge and archive map">
+  <defs>
+    <pattern id="gridArchL" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#1e293b" stroke-width="0.5" stroke-opacity="0.45"/>
+    </pattern>
+    <marker id="arrC" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#1793d1"/>
+    </marker>
+    <marker id="arrE" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#39d353"/>
+    </marker>
+    <marker id="arrG" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#e3b341"/>
+    </marker>
+  </defs>
+
+  <rect width="880" height="260" rx="12" fill="#090d16"/>
+  <rect width="880" height="260" rx="12" fill="url(#gridArchL)"/>
+  <rect x="0.75" y="0.75" width="878.5" height="258.5" rx="12" fill="none" stroke="#1e293b" stroke-width="1.5"/>
+
+  <text x="24" y="28" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" font-weight="700" fill="#94a3b8" letter-spacing="0.8">ARCHITECTURE // LEGACY BRIDGE v3.9.0 &amp; ARCHIVED VARIANTS</text>
+  <line x1="24" y1="38" x2="856" y2="38" stroke="#1e293b" stroke-width="1"/>
+
+  <!-- Left: Archived Files -->
+  <g transform="translate(24, 54)">
+    <text x="0" y="12" font-family="ui-monospace, monospace" font-size="10" fill="#e3b341">01. ARCHIVED VARIANTS</text>
+
+    <rect x="0" y="22" width="212" height="36" rx="6" fill="#111622" stroke="#39d353" stroke-width="1.2"/>
+    <text x="10" y="38" font-family="ui-monospace, monospace" font-size="10.5" font-weight="700" fill="#f8fafc">edunext_ULTRA.user.js</text>
+    <text x="10" y="51" font-family="ui-sans-serif, sans-serif" font-size="9.5" fill="#94a3b8">v3.9.0 · Primary bridge build</text>
+
+    <rect x="0" y="64" width="212" height="36" rx="6" fill="#111622" stroke="#1793d1" stroke-width="1.2"/>
+    <text x="10" y="80" font-family="ui-monospace, monospace" font-size="10.5" font-weight="700" fill="#f8fafc">edunext_ULTRA_console.js</text>
+    <text x="10" y="93" font-family="ui-sans-serif, sans-serif" font-size="9.5" fill="#94a3b8">v3.9.0 · DevTools paste variant</text>
+
+    <rect x="0" y="106" width="212" height="36" rx="6" fill="#111622" stroke="#1e293b" stroke-width="1.2"/>
+    <text x="10" y="122" font-family="ui-monospace, monospace" font-size="10.5" fill="#cbd5e1">eDuNeXt_FoRk_Prenium_V1.js</text>
+    <text x="10" y="135" font-family="ui-sans-serif, sans-serif" font-size="9.5" fill="#64748b">v3.9.0 · Older fork snapshot</text>
+
+    <rect x="0" y="148" width="212" height="36" rx="6" fill="#111622" stroke="#1e293b" stroke-width="1.2"/>
+    <text x="10" y="164" font-family="ui-monospace, monospace" font-size="10.5" fill="#cbd5e1">eDuNeXt_FoRk_liteV1.0.7.js</text>
+    <text x="10" y="177" font-family="ui-sans-serif, sans-serif" font-size="9.5" fill="#64748b">v1.0.7 · Initial lite release</text>
+  </g>
+
+  <path d="M 236 94 L 274 114" fill="none" stroke="#39d353" stroke-width="1.5" marker-end="url(#arrE)"/>
+  <path d="M 236 136 L 274 136" fill="none" stroke="#1793d1" stroke-width="1.5" marker-end="url(#arrC)"/>
+
+  <!-- Middle: 3-Source Monitor & Canvas Sync -->
+  <g transform="translate(278, 54)">
+    <text x="0" y="12" font-family="ui-monospace, monospace" font-size="10" fill="#1793d1">02. THREE-SOURCE MONITOR</text>
+    <rect x="0" y="22" width="272" height="162" rx="8" fill="#111622" stroke="#1e293b" stroke-width="1.3"/>
+
+    <rect x="12" y="34" width="248" height="32" rx="5" fill="#090d16" stroke="#1793d1" stroke-opacity="0.7"/>
+    <text x="22" y="48" font-family="ui-monospace, monospace" font-size="10" fill="#e2e8f0">Source 1: React Fiber Tree</text>
+    <text x="22" y="60" font-family="ui-sans-serif, sans-serif" font-size="9" fill="#94a3b8">Fallback to DOM Block -&gt; Network Stream</text>
+
+    <rect x="12" y="74" width="248" height="32" rx="5" fill="#090d16" stroke="#1e293b"/>
+    <text x="22" y="88" font-family="ui-monospace, monospace" font-size="10" fill="#e2e8f0">Turn-Bound Canvas API Capture</text>
+    <text x="22" y="100" font-family="ui-sans-serif, sans-serif" font-size="9" fill="#94a3b8">Matches image to active turn only</text>
+
+    <rect x="12" y="114" width="248" height="28" rx="5" fill="#090d16" stroke="#1e293b"/>
+    <text x="22" y="132" font-family="ui-monospace, monospace" font-size="10" fill="#cbd5e1">Write answer -&gt; Submit -&gt; Log status</text>
+
+    <rect x="12" y="150" width="248" height="24" rx="5" fill="#090d16" stroke="#e3b341" stroke-opacity="0.6"/>
+    <text x="22" y="166" font-family="ui-monospace, monospace" font-size="9.5" fill="#e3b341">Docs: Hưỡng Dẫn.md  |  README.md</text>
+  </g>
+
+  <path d="M 550 112 L 590 100" fill="none" stroke="#39d353" stroke-width="1.5" marker-end="url(#arrE)"/>
+  <path d="M 550 156 L 590 172" fill="none" stroke="#e3b341" stroke-width="1.5" marker-end="url(#arrG)"/>
+
+  <!-- Right: Cross-tab Bridge & Direct API -->
+  <g transform="translate(594, 54)">
+    <text x="0" y="12" font-family="ui-monospace, monospace" font-size="10" fill="#39d353">03. SOLVER TRANSPORT</text>
+
+    <rect x="0" y="22" width="262" height="72" rx="7" fill="#111622" stroke="#39d353" stroke-width="1.2"/>
+    <text x="12" y="40" font-family="ui-sans-serif, sans-serif" font-size="11" font-weight="700" fill="#39d353">Primary: Cross-Tab GM Bridge</text>
+    <text x="12" y="56" font-family="ui-monospace, monospace" font-size="9.5" fill="#cbd5e1">GM_setValue -&gt; gemini.google.com</text>
+    <text x="12" y="70" font-family="ui-monospace, monospace" font-size="9.5" fill="#94a3b8">Wait stream idle -&gt; write back</text>
+    <text x="12" y="84" font-family="ui-monospace, monospace" font-size="9" fill="#64748b">No API key required on active session</text>
+
+    <rect x="0" y="104" width="262" height="44" rx="7" fill="#111622" stroke="#1793d1" stroke-width="1.2"/>
+    <text x="12" y="122" font-family="ui-sans-serif, sans-serif" font-size="11" font-weight="700" fill="#1793d1">Fallback: Direct Provider API</text>
+    <text x="12" y="137" font-family="ui-monospace, monospace" font-size="9.5" fill="#94a3b8">generativelanguage / ai-gw.fpt.edu.vn</text>
+
+    <rect x="0" y="156" width="262" height="28" rx="6" fill="#0f172a" stroke="#e3b341" stroke-opacity="0.7"/>
+    <text x="12" y="174" font-family="ui-monospace, monospace" font-size="9.5" fill="#fde68a">Active Maintenance -&gt; Edunext_fe</text>
+  </g>
+</svg>
